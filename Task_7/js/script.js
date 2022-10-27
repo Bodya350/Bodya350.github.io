@@ -16,7 +16,7 @@ one.oninput = () => {
         if( one.value > 0 && one.value < 50){
           f-=1
       }
-    num.innerHTML = pixel ;
+    num.innerHTML = `${pixel} Текст сейчас вот такого размера` ;
     console.log(one.value);
     
 }
